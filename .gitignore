@@ -6,3 +6,5 @@
 .gradle
 build
 bin
+.pre-commit-config.yaml
+.direnv

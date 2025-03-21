@@ -7,12 +7,12 @@ import org.eclipse.lsp4j.services.WorkspaceService
 /**
  * The implementation of workspace-related requests.
  */
-class KotlinWorkspaceService: WorkspaceService {
-    override fun didChangeConfiguration(params: DidChangeConfigurationParams?) {
+class KotlinWorkspaceService : WorkspaceService {
+    override fun didChangeConfiguration(params: DidChangeConfigurationParams) {
         // TODO
     }
 
-    override fun didChangeWatchedFiles(params: DidChangeWatchedFilesParams?) {
+    override fun didChangeWatchedFiles(params: DidChangeWatchedFilesParams) {
         // TODO
     }
 }
